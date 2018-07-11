@@ -6,7 +6,7 @@
 # This sample, therefore, only demonstrates running a collection of unit tests.
 
 :project:
-  :use_exceptions: TRUE
+  :use_exceptions: FALSE
   :use_test_preprocessor: TRUE
   :use_auxiliary_dependencies: TRUE
   :build_root: build
@@ -30,11 +30,9 @@
     - +:test/**
     - -:test/support
   :source:
-    - +:src/**
-    - -:src/CException
-  :include: 
-    - +:Inc/**
-    - -:Inc/CException    
+    - src/**
+  :include:
+    - Inc/**
   :support:
     - test/support
 
