@@ -1,0 +1,5 @@
+build/*
+!build/Readme.txt
+Debug/*
+!Debug/makefile
+!Debug/*.mk
